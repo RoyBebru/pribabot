@@ -7,11 +7,11 @@ Before using program there are needed to install the following additional module
     pip install aiofile
     pip install aiologger
 
-Example how to run locally for last 3 days. Selected currency is USD and EUR by default plus PLN and TRY:
+Example how to run application locally for last 3 days information. Selected currency is USD and EUR by default plus additional PLN and TRY:
 
     python3 main.py -d 3 PLN TRY
 
-Example how to run as websocket server on localhost:8765:
+Example how to run application as websocket server on localhost:8765 port:
 
     pyhon3 main.py -s
 
